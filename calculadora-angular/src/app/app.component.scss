@@ -11,9 +11,9 @@
     grid-gap: 1px;
     max-width: 400px;
     background-color: #000000;
-    border-radius: 10px;
+    height: 100%;
   }
-  
+
   .display {
     grid-column: 1 / span 4;
     text-align: right;
@@ -21,26 +21,24 @@
     color: whitesmoke;
     background-color: #000000;
     height: 70px;
-    font-size: 2.5em;
+    font-size: 3.5em;
     border-radius: 10px 10px 0 0;
     border: none;
   }
-  
+
   .button {
     padding: 15px;
     text-align: center;
     background-color: #e0e0e0;
     color: whitesmoke;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 3em;
   }
   .button.equal{
     grid-column: 4;
-    border-radius: 0 0 10px 0;
   }
   .button.zero{
     grid-column-end: span 2;
-    border-radius: 0 0 0 10px;
   }
   .number-button{
     background-color: rgb(126, 126, 126);
