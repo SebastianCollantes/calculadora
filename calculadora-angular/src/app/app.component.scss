@@ -9,9 +9,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1px;
-    max-width: 400px;
     background-color: #000000;
     height: 100%;
+    width: 100%;
   }
 
   .display {
